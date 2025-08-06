@@ -38,10 +38,10 @@ It allows users to manage a list of movies with basic Create, Read, Update, and 
 1. **Clone the repository**  
    Open terminal and run:
 
-   ``` bash
-   git clone https://github.com/your-username/MCIT-MVC-Movies.git
-   cd MCIT-MVC-Movies
-   ```
+``` bash
+git clone https://github.com/your-username/MCIT-MVC-Movies.git
+cd MCIT-MVC-Movies
+```
 - Apply EF Migrations
 
 ```bash
@@ -67,7 +67,7 @@ using (var scope = app.Services.CreateScope())
 dotnet run
 ```
 
-###📁 Project Structure
+### 📁 Project Structure
 
 ```bash
 MCIT-MVC-Movies/
